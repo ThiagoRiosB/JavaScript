@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escalação Time</title>
+</head>
+<body>
+<header>
+  <h1>Sistema Time</h1>
+</header>
+ <section>
+    <h2>Inscrever Jogador</h2>
+    <p>Nome do jogador: <input type="text" name="player-name" id="player-name">
+      Posição que atua: <input type="text" name="player-position" id="player-position">
+      Número da camiseta: <input type="text" name="player-shirt"id="player-shirt">
+      <button onclick="addplayer()">Adicionar Jogador</button>
+      <hr>
+    </p>
+  </section>
+  <section>
+    <h2>Remover Jogador</h2>
+   <p>Número da camisa: <input type="text" name="number-shirt" id="number-shirt">
+    <button onclick="removerplayer()">Remover Jogador</button>
+  <hr></p>
+  </section>
+ <section>
+  <h2>Jogadores Cadastrados no Time</h2>
+  <ul id="player-list"></ul>
+ </section>
+  <script src="index.js">
+
+  </script>
+</body>
+</html>
