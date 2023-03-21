@@ -1,14 +1,18 @@
 body {
-  background-color: blue;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(17, 17, 247);
+  font: normal 15pt arial;
   color: white;
   text-align: center;
 }
-main {
+section {
   background-color: white;
+  border-radius: 10px;
   color: black;
-  width: 40%;
+  width: 500px;
   height: 300px;
-  display: flex;
-  justify-content: center;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+footer {
+  font-style: italic;
 }
